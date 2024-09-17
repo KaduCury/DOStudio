@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalhos */
+h1, h2, h3, h4, h5 {
+    color: #6b5b95; /* Tom feminino e elegante */
+    font-family: 'Georgia', serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    border-bottom: 2px solid #d2d7df;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.75rem;
+    margin: 15px 0;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+h5 {
+    font-size: 1.25rem;
+    margin: 8px 0;
+}
+
+/* Parágrafos e listas */
+p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+ul, ol {
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+/* Links do Índice */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Configura os itens como flexíveis e coloca-os na horizontal */
+    justify-content: center; /* Centraliza os itens no nav */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    color: #d84164; /* Cor dos links do índice */
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #bf3657;
+    text-decoration: underline;
+}
+
+/* Links internos (âncoras) */
+a {
+    color: #d84164;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Botões e interações */
+button {
+    background-color: #d84164;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bf3657;
+}
+
+.back-to-top {
+    position: fixed; /* Fixa o botão na página */
+    bottom: 20px; /* Posiciona 20px acima do rodapé */
+    right: 20px; /* Posiciona 20px à direita */
+    background-color: #d84164; /* Cor de fundo feminina e elegante */
+    color: white; /* Cor do texto */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 50px; /* Botão arredondado */
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none; /* Remove sublinhado */
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #bf3657; /* Cor de fundo ao passar o mouse */
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    body {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column; /* Coloca o nav vertical em telas pequenas */
+        gap: 10px; /* Menor espaçamento entre os itens no modo vertical */
+    }
+    
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    .back-to-top {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}
