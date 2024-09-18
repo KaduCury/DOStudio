@@ -181,21 +181,33 @@ button:hover {
 @media (max-width: 1023px) {
     nav ul {
         flex-direction: column; /* Coloca o nav vertical em telas pequenas */
-    }
+    }    
 }
 
 /* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
 
     h2 {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 
     h3 {
-        font-size: 1rem;
+        font-size: 1.4rem;
+    }
+
+    h4 {
+        font-size: 1.3rem;
+    }
+
+    h5 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        margin-bottom: 10vw;
     }
 
     body {
@@ -219,33 +231,8 @@ button:hover {
     }
 }
 
-/*@media (max-width: 767px) {
-    h1 {
-        font-size: 2rem;
+@media (max-width: 450px) {
+    p {
+        margin-bottom: 20vw;
     }
-
-    h2 {
-        font-size: 1.75rem;
-    }
-
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    body {
-        padding: 20px 75px 20px 20px;
-    }
-
-    nav ul {        
-        gap: 10px; * Menor espaçamento entre os itens no modo vertical *
-    }
-    
-    nav ul li a {
-        font-size: 1rem;
-    }
-
-    .back-to-top {
-        padding: 8px 12px;
-        font-size: 0.9rem;
-    }
-}*/
+}
