@@ -237,10 +237,20 @@ button:hover {
         bottom: 8vw;
         right: 9vw;
     }
+
+    .divCapitulo {
+        margin-bottom: 35vw;
+    }
+    
 }
 
 @media (max-width: 450px) {
     p {
         margin-bottom: 20vw;
     }
+
+    .divCapitulo {
+        margin-bottom: 50vw;
+    }
+    
 }
