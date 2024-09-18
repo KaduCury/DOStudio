@@ -1,5 +1,5 @@
 * {
-    margin: 1em;
+    margin: 1vw;
     padding: 0;
     box-sizing: border-box;
 }
@@ -15,6 +15,7 @@ body {
 
 .divCapitulo {
     border-top: 2px solid #6b5b95;
+    margin-bottom: 25vw;
 }
 
 /* Cabeçalhos */
@@ -32,8 +33,8 @@ h1 {
 h2 {
     font-size: 2rem;
     margin: 20px 0;
-    /*border-top: 2px solid #6b5b95;*/
-    padding-top: 10px;
+    /*border-top: 2px solid #6b5b95;
+    padding-top: 10px;*/
 }
 
 h3 {
@@ -186,19 +187,19 @@ button:hover {
 /* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
     h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        font-size: 1.75rem;
-    }
-
-    h3 {
         font-size: 1.5rem;
     }
 
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
     body {
-        padding: 10px;
+        padding: 2.6vw 9.8vw 2.6vw 2.6vw;
     }
 
     nav ul {        
@@ -212,5 +213,39 @@ button:hover {
     .back-to-top {
         padding: 8px 12px;
         font-size: 0.9rem;
+        position: fixed;
+        bottom: 8vw;
+        right: 9vw;
     }
 }
+
+/*@media (max-width: 767px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    body {
+        padding: 20px 75px 20px 20px;
+    }
+
+    nav ul {        
+        gap: 10px; * Menor espaçamento entre os itens no modo vertical *
+    }
+    
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    .back-to-top {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}*/
