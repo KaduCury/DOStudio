@@ -18,6 +18,10 @@ body {
     margin-bottom: 25vw;
 }
 
+#Fontes {
+    text-align: justify;
+}
+
 /* Cabeçalhos */
 h1, h2, h3, h4, h5 {
     color: #6b5b95; /* Tom feminino e elegante */
